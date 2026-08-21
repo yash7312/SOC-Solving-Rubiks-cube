@@ -1,0 +1,69 @@
+Training: k=30, l=10, M=1000 (300 samples/iter)
+TensorBoard logs: ./logs/20260821-183624
+[iter 0] loss: 0.0031 (val: 0.0027, pol: 0.0003) | time: 35.706s
+[iter 1] loss: 0.0030 (val: 0.0028, pol: 0.0002) | time: 24.649s
+[iter 2] loss: 0.0023 (val: 0.0021, pol: 0.0002) | time: 24.204s
+[iter 3] loss: 0.0018 (val: 0.0017, pol: 0.0001) | time: 24.338s
+[iter 4] loss: 0.0024 (val: 0.0023, pol: 0.0001) | time: 24.433s
+[iter 5] loss: 0.0018 (val: 0.0017, pol: 0.0001) | time: 22.540s
+[iter 6] loss: 0.0022 (val: 0.0022, pol: 0.0001) | time: 22.322s
+[iter 7] loss: 0.0021 (val: 0.0020, pol: 0.0001) | time: 22.413s
+[iter 8] loss: 0.0024 (val: 0.0023, pol: 0.0001) | time: 22.517s
+[iter 9] loss: 0.0018 (val: 0.0017, pol: 0.0000) | time: 22.434s
+[iter 9] solve rates: d1=100% d2=60% d3=65% d4=55% d5=15%
+[iter 9] checkpoint saved: ./checkpoints/model_iter_10.keras
+[iter 10] loss: 0.0032 (val: 0.0032, pol: 0.0000) | time: 22.812s
+[iter 11] loss: 0.0083 (val: 0.0034, pol: 0.0049) | time: 22.627s
+[iter 12] loss: 0.0010 (val: 0.0010, pol: 0.0000) | time: 22.634s
+[iter 13] loss: 0.0014 (val: 0.0013, pol: 0.0000) | time: 22.843s
+[iter 14] loss: 0.0010 (val: 0.0010, pol: 0.0000) | time: 22.795s
+[iter 15] loss: 0.0013 (val: 0.0013, pol: 0.0000) | time: 22.226s
+[iter 16] loss: 0.0013 (val: 0.0012, pol: 0.0000) | time: 22.934s
+[iter 17] loss: 0.0012 (val: 0.0011, pol: 0.0000) | time: 22.821s
+[iter 18] loss: 0.0015 (val: 0.0015, pol: 0.0000) | time: 22.810s
+[iter 19] loss: 0.0013 (val: 0.0012, pol: 0.0000) | time: 22.852s
+[iter 19] solve rates: d1=100% d2=75% d3=55% d4=25% d5=15%
+[iter 19] checkpoint saved: ./checkpoints/model_iter_20.keras
+[iter 20] loss: 0.0017 (val: 0.0017, pol: 0.0000) | time: 22.946s
+[iter 21] loss: 0.0014 (val: 0.0014, pol: 0.0000) | time: 22.773s
+[iter 22] loss: 0.0022 (val: 0.0021, pol: 0.0000) | time: 22.583s
+[iter 23] loss: 0.0016 (val: 0.0015, pol: 0.0000) | time: 22.186s
+[iter 24] loss: 0.0015 (val: 0.0015, pol: 0.0000) | time: 23.009s
+[iter 25] loss: 0.0022 (val: 0.0022, pol: 0.0000) | time: 22.875s
+[iter 26] loss: 0.0019 (val: 0.0019, pol: 0.0000) | time: 22.547s
+[iter 27] loss: 0.0089 (val: 0.0089, pol: 0.0000) | time: 22.637s
+[iter 28] loss: 0.0017 (val: 0.0017, pol: 0.0000) | time: 22.758s
+[iter 29] loss: 0.0016 (val: 0.0016, pol: 0.0000) | time: 23.067s
+[iter 29] solve rates: d1=95% d2=85% d3=35% d4=30% d5=15%
+[iter 29] checkpoint saved: ./checkpoints/model_iter_30.keras
+[iter 30] loss: 0.0022 (val: 0.0022, pol: 0.0000) | time: 24.035s
+[iter 31] loss: 0.0018 (val: 0.0017, pol: 0.0000) | time: 25.187s
+[iter 32] loss: 0.0020 (val: 0.0019, pol: 0.0000) | time: 23.914s
+[iter 33] loss: 0.0024 (val: 0.0024, pol: 0.0000) | time: 24.337s
+[iter 34] loss: 0.0012 (val: 0.0011, pol: 0.0000) | time: 24.321s
+[iter 35] loss: 0.0009 (val: 0.0009, pol: 0.0000) | time: 23.349s
+[iter 36] loss: 0.0185 (val: 0.0136, pol: 0.0049) | time: 22.908s
+[iter 37] loss: 0.0019 (val: 0.0019, pol: 0.0000) | time: 22.968s
+[iter 38] loss: 0.0011 (val: 0.0011, pol: 0.0000) | time: 25.441s
+[iter 39] loss: 0.0012 (val: 0.0012, pol: 0.0000) | time: 24.890s
+[iter 39] solve rates: d1=100% d2=90% d3=70% d4=45% d5=25%
+[iter 39] checkpoint saved: ./checkpoints/model_iter_40.keras
+[iter 40] loss: 0.0012 (val: 0.0012, pol: 0.0000) | time: 22.989s
+[iter 41] loss: 0.0010 (val: 0.0010, pol: 0.0000) | time: 22.940s
+[iter 42] loss: 0.0014 (val: 0.0013, pol: 0.0000) | time: 23.372s
+[iter 43] loss: 0.0018 (val: 0.0017, pol: 0.0000) | time: 24.366s
+[iter 44] loss: 0.0021 (val: 0.0021, pol: 0.0000) | time: 25.030s
+[iter 45] loss: 0.0022 (val: 0.0021, pol: 0.0000) | time: 24.906s
+[iter 46] loss: 0.0014 (val: 0.0014, pol: 0.0000) | time: 25.317s
+[iter 47] loss: 0.0017 (val: 0.0017, pol: 0.0000) | time: 25.510s
+[iter 48] loss: 0.0018 (val: 0.0018, pol: 0.0000) | time: 26.542s
+[iter 49] loss: 0.0018 (val: 0.0018, pol: 0.0000) | time: 26.103s
+[iter 49] solve rates: d1=100% d2=100% d3=60% d4=35% d5=45%
+[iter 49] checkpoint saved: ./checkpoints/model_iter_50.keras
+[iter 50] loss: 0.0021 (val: 0.0021, pol: 0.0000) | time: 29.122s
+[iter 51] loss: 0.0025 (val: 0.0025, pol: 0.0000) | time: 25.442s
+[iter 52] loss: 0.0025 (val: 0.0025, pol: 0.0000) | time: 25.705s
+[iter 53] loss: 0.0017 (val: 0.0016, pol: 0.0000) | time: 24.873s
+[iter 54] loss: 0.0022 (val: 0.0021, pol: 0.0000) | time: 25.312s
+[iter 55] loss: 0.0015 (val: 0.0015, pol: 0.0000) | time: 27.389s
+[iter 56] loss: 0.0026 (val: 0.0026, pol: 0.0000) | time: 29.136s

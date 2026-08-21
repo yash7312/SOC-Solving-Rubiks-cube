@@ -1,6 +1,6 @@
 from tensorflow.keras import Model, Input
 from tensorflow.keras.layers import Dense
-from tensorflow.train import RMSPropOptimizer
+from tensorflow.keras.optimizers import RMSprop
 
 def buildModel(inputSize):
 	cubeInputs = Input(shape=(inputSize,), name="CubeInputs")
@@ -14,6 +14,6 @@ def buildModel(inputSize):
 	return model
 
 def compileModel(model, learningRate):
-	model.compile(optimizer=RMSPropOptimizer(learning_rate=learningRate),
+	model.compile(optimizer=RMSprop(learning_rate=learningRate),
 				  loss={"ValueOutput" : "mean_squared_error",
 				        "PolicyOutput" : "sparse_categorical_crossentropy"})
